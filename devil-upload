@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gulp build;
+
+scp -r dist/* devil:domains/kristof.szmeku.mydevil.net/public_html/
